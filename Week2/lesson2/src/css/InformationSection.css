@@ -1,0 +1,42 @@
+.information-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .main-text {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .main-text h1 {
+    font-size: 36px;
+    color: #123456; /* Adjust this color to match your design */
+  }
+  
+  .info-cards {
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+  }
+  
+  .info-card {
+    flex: 1 1 45%;
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-card h2 {
+    font-size: 24px;
+    color: #123456; /* Adjust this color to match your design */
+  }
+  
+  .info-card p {
+    font-size: 16px;
+    color: #555555; /* Adjust this color to match your design */
+  }
+  
